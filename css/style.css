@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2? family= Annie+Use+Your+Telescope & family= Open+Sans:ital,wght@0,300;0,400;1,300 & display=swap' );
+
+
+body {
+    background-color: rgb(19, 17, 17);
+    color: white;
+    font-family: 'Annie Use Your Telescope;';
+    font-weight: normal;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(56, 53, 53), rgb(0, 0, 0), rgb(90, 4, 4));
+    background-size: 500% 100%;
+    animation:ecv-bonito 3s  infinite alternate;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+}
+a {
+    color: brown;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+
+a :hover {
+    color: rgb(250, 250, 250);
+    transition: 0.8s all;
+}
+
+#inscrevase-btn{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 15px;
+    
+    
+
+}
+
+#inscrevase-btn:hover{
+   background-color: brown;
+   color: rgb(255, 255, 255);
+   transition: 0.9s all;
+
+}
+
+h1 {
+    font-weight: 800;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: top 50px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 10px;
+    font-family: 'Annie Use Your Telescope;';
+}
+
+span {
+    color: brown;
+    }
+p {
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    max-width: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 70px;
+    top: 4px 0;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+    color: black;
+}
+
+input {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+    border-top: 1px solid hsla(0, 92%, 59%, 0.137);
+    gap: 170px;   
+}
+
+footer a {
+    color: brown
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+@keyframes ecv-bonito {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+
+        }
